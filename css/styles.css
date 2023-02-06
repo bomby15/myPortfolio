@@ -1,0 +1,189 @@
+/* CSS Document */ 
+/******** Color Scheme *************
+#0052F5 - Dark Gray
+#0099FF - Light Blue
+#0CCBE8 - Light Light Blue
+#00FFDD - BlueGreen 
+#00F58F - Lime Grenn 
+************************************/
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto:wght@400;700&family=Rubik+Beastly&display=swap');
+/***** Fonts ****************************************
+font-family: 'Comforter', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Beastly', cursive;
+*****************************************************/ 
+
+/********* CSS Reset *******************************/ 
+body, header, nav, footer, h1, div, img, p, ul, li, main {
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+
+/********** Box Model Fix *****************/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit; 
+}
+
+body {
+	background: url('../images/IMG_5678.jpg') top left; 
+
+
+	/* Create the parallax scrolling effect */ 
+	background-attachment: fixed;
+	background-position: center; 
+    background-reapeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/***************Header Section****************************/
+header {
+	width: 100%;
+	height: 300px; 
+	margin: 0; 
+	padding: 0; 
+}
+
+header h1 {
+	font-family: 'Comforter', cursive;
+	font-size: 6em; 
+	color: #731810; 
+	margin-top: -75px; 
+	padding-top: 1em; 
+	padding-left: 200px; 
+	text-shadow: 10px 10px 15px #673531; 
+}
+
+header h2 {
+	font-family: 'Comforter', cursive; 
+	font-size: 3em;
+	color: #731810; 
+	margin-top: -10px; 
+	padding-left: 225px;
+}
+
+header nav {
+	background: #67353188; 
+	padding: 20px 200px 5px 0; /*TRouBLe*/ 
+	min-height: 75px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0; 
+	text-align: right; 
+}
+
+header nav li {
+	display: inline-block; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: bold; 
+}
+
+header nav a {
+	color: #F2E0D0; 
+	text-decoration: none; 
+	padding: 15px 0 0 15px; 
+	font-size: 1.5em; 
+}
+
+header nav a:hover {
+	color: #731810; 
+	text-decoration: underline; 
+}
+
+/************** End of Header Section ***************************/ 
+
+/************** Main Section ******************************/
+
+/************** Projects Section ***************/
+#projects {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #67353199; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #B5A39B; 
+}
+
+#projects img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#projects p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End Projects Section ***************/
+/************** About Section ***************/
+#about {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #D5BAAC99; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #731810; 
+}
+
+#about img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#about p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End About Section ***************/
+
+/************** End Main Section ******************************/
+/************** Footer Section ****************************/ 
+footer {
+	background: #73181055;
+	color: white; 
+	min-height: 500px;
+	text-align: center;
+}
+	
+footer nav {
+	background: #D5BAAC; 
+	padding: 10px 0; /*TB RL*/ 
+	min-height: 25px;
+}
+
+footer nav ul {
+	list-style-type: none;
+	margin: 0; 
+	text-align: center; 
+}
+footer nav li {
+	display: inline-block; 
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: bold; 
+	margin: 0 2em; 
+}
+
+footer nav a {
+	color: #731810; 
+	text-decoration: none; 
+	padding: 15px 0 0 15px; 
+	font-size: 1em; 
+}
+
+footer nav a:hover {
+	color: #F2E0D0; 
+	text-decoration: underline; 
+}
+/**************End Footer Section ****************************/ 
