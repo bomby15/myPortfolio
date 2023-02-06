@@ -1,0 +1,92 @@
+@supports (grid-area: auto){
+@media screen and (min-width: 400px){
+#homePix{
+display: grid;
+width: 100%;
+grid-template-columns: 30% 30% 30%;
+/* 90% screen - leaves space for grid-gap */
+grid-template-areas:
+"item1 back1 item5"
+   "back2 item2 back3"
+"item4 back4 item3"
+"item6 back5 item10"
+   "back6 item7 back7"
+"item9 back8 item8";
+justify-content: center;
+grid-gap: 1% 1%;
+}
+
+#GasCard {
+grid-area: item1;
+}
+
+}
+	#back1 {
+grid-area: back1;
+}
+ 
+#CallofDuty {
+grid-area: item3;
+}
+
+#back2 {
+grid-area: back2;
+}
+	
+#SoccerBall {
+grid-area: item2;
+}
+
+#Truck{
+grid-area: item4;
+}
+
+
+back3 {
+grid-area: back3;
+}
+
+#Section10chip{
+grid-area: item5;
+}
+
+#XboxSeriesX{
+grid-area: item6;
+}
+ 
+#back4 {
+grid-area: back4;
+}
+
+#Pizza{
+grid-area: item7;
+}
+
+#back5 {
+grid-area: back5;
+}
+
+#Soda{
+grid-area: item8;
+}
+
+
+#back6 {
+grid-area: back6;
+}
+
+#Money{
+grid-area: item9;
+}
+
+
+#back7 {
+grid-area: back7;
+}
+
+#Toliet Toliet Paper{
+grid-area: item10;
+}
+
+#back8 {grid-area: back8;
+}
