@@ -148,6 +148,198 @@ header nav a:hover {
 }
 /************** End About Section ***************/
 
+/************** Objective Section ***************/
+#Objective {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #D5BAAC99; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #731810; 
+}
+
+#Objective img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#Objective p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End Objective Section ***************/
+
+/************** Education Section ***************/
+#Education {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #73181099; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #D5BAAC; 
+}
+
+#Education img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#Education p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End Education Section ***************/
+
+/************** Awards and Honors Section ***************/
+#AwardsAndHonors{
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #D5BAAC99; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #731810; 
+}
+
+#AwardsAndHonors img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#AwardsAndHonors p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End Awards and Honors Section ***************/
+
+/************** Training and Certification Section ***************/
+#TrainingandCertifications {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #73181099; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #D5BAAC; 
+}
+
+#TrainingandCertifications img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#TrainingandCertifications p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End Training and Certification Section ***************/
+
+/************** Work Experience Section ***************/
+#WorkExperience {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #D5BAAC99; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #731810; 
+}
+
+#WorkExperience img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#WorkExperience p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End Work Experience Section ***************/
+
+/************** High School Activities Section ***************/
+#HighSchoolActivities {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #73181099; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #D5BAAC; 
+}
+
+#HighSchoolActivities img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#HighSchoolActivities p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End High School Activities Section ***************/
+
+/************** Community Activities Section ***************/
+#CommunityActivities {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #D5BAAC99; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #731810; 
+}
+
+#CommunityActivities img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#CommunityActivities p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End Community Activities Section ***************/
+#web {
+	margin: 0; 
+	padding: 5%;
+	min-height: 500px; 
+	width: 100%;
+	background-color: #73181099; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; 
+	font-size: 2em; 
+	color: #D5BAAC; 
+}
+
+#web img {
+	float: left; 
+	margin-right: 100px; 
+	justify-content: center; 
+}
+
+#web p {
+	margin-top: 75px; 
+	justify-content: center; 
+}
+/************** End High School Activities Section ***************/
+
+
+
 /************** End Main Section ******************************/
 /************** Footer Section ****************************/ 
 footer {
